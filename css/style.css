@@ -5,7 +5,7 @@
 }
 
 .container-dark {
-    background-color: darkgray;
+    background-color: black;
     color: white;
 }
 
@@ -21,4 +21,17 @@
 
 .align-right {
     text-align: right;
+}
+
+
+/* Buttton Classes */
+.button-blue {
+    border-radius: 0%;
+    background-color: lightblue;
+}
+
+.button-blue-full-width {
+    border-radius: 0%;
+    background-color: lightblue;
+    width: 100%;
 }
