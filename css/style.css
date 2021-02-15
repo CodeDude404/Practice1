@@ -1,0 +1,22 @@
+/* Ccontaiers */
+.container-light {
+    color: white;
+}
+
+.container-dark {
+    color: gainsboro;
+}
+
+/* Aligns */
+
+.align-center {
+    align-self: center;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
