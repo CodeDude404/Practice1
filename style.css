@@ -1,10 +1,12 @@
 /* Ccontaiers */
 .container-light {
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .container-dark {
-    color: gainsboro;
+    background-color: darkgray;
+    color: white;
 }
 
 /* Aligns */
