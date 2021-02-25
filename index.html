@@ -35,161 +35,167 @@
 	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
 		<!-- Brand -->
 		<span class="navbar-brand" id="time"></span>
-			<!-- Toggler/collapsibe Button -->
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<!-- Toggler/collapsibe Button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 			<span class="navbar-toggler-icon"></span>
-			</button>
-			<!-- Navbar links -->
-			<div class="collapse navbar-collapse" id="collapsibleNavbar">
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#">Link</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fas fa-inbox"></i> Inbox</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" data-toggle="modal" data-target="#mainSettings"><i class="fas fa-cogs"></i> Settings</a>
-					</li>
-				</ul>
+		</button>
+		<!-- Navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-inbox"></i> Inbox</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" data-toggle="modal" data-target="#mainSettings"><i class="fas fa-cogs"></i>
+						Settings</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="container mt-3" id="main">
+
+		<h2>Temperature Converter</h2>
+		<p>Convert temperatures to or from Celsius, Kelvin, and Fahrenheit. Just type the numbers and go!</p>
+
+		<div class="input-group mb-3">
+			<input type="number" class="form-control" placeholder="Fahrenheit" aria-label="Fahrenheit"
+				aria-describedby="basic-addon2" id="tempF">
+			<div class="input-group-append">
+				<span class="input-group-text" id="basic-addon2">&#176;F</span>
 			</div>
-		</nav>
+		</div>
 
-		
-		<div class="container mt-3" id="main">
-			
-			<h2>Temperature Converter</h2>
-			<p>Convert temperatures to or from Celsius, Kelvin, and Fahrenheit. Just type the numbers and go!</p>
+	</div>
 
-			<div class="input-group mb-3">
-  <input type="number" class="form-control" placeholder="Fahrenheit" aria-label="Fahrenheit" aria-describedby="basic-addon2" id="tempF">
-  <div class="input-group-append">
-    <span class="input-group-text" id="basic-addon2">&#176;F</span>
-  </div>
+	<script src="js/script.js"></script>
+	<!--script src="js/cacheApp/main.js"></script-->
+</body>
+<div class="modal" id="mainSettings">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<h4 class="modal-title"><i class="fas fa-cog"></i>&nbsp;Settings</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<!-- Modal body -->
+			<div class="modal-body">
+				<div class="btn-group-vertical w-100">
+					<button type="button" class="btn btn-outline-danger btn-block w-100" data-toggle="modal"
+						data-target="#ThemeModal" data-dismiss="modal">Theme</button>
+					<button type="button" class="btn btn-outline-warning btn-block w-100" data-toggle="modal"
+						data-target="#ClockModal" data-dismiss="modal">Clock</button>
+					<button type="button" class="btn btn-outline-success btn-block w-100" data-toggle="modal"
+						data-target="#KeyModal" data-dismiss="modal">Keyboard Shortcuts</button>
+				</div>
+			</div>
+			<!-- Modal footer -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="ThemeModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<h4 class="modal-title">Theme Settings</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<!-- Modal body -->
+			<div class="modal-body">
+				<div class="input-group mb-3 input-group-sm">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Theme Color &nbsp;<i class="fas fa-palette"></i></span>
+					</div>
+					<select class="form-control" id="theme">
+						<option value="dark">Dark</option>
+						<option value="light" selected>Light </option>
+						<option value="blue">Blue</option>
+					</select>
+				</div>
+				<div class="input-group mb-3 input-group-sm">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Nav Text Color &nbsp;<i class="fas fa-palette"></i></span>
+					</div>
+					<select class="form-control" id="textnav">
+						<option value="default" selected>Default </option>
+					</select>
+				</div>
+			</div>
+			<!-- Modal footer -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-success" id="liveToastBtn" onclick="js:SetTheme()">Save</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="ClockModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<h4 class="modal-title">Clock Settings</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<!-- Modal body -->
+			<div class="modal-body">
+				<div class="input-group mb-3 input-group-sm">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Show Clock In Nav &nbsp;<i class="fas fa-clock"></i></span>
+					</div>
+					<select class="form-control" id="clockNav">
+						<option value="on" selected>On</option>
+						<option value="off">Off </option>
+					</select>
+				</div>
+			</div>
+			<!-- Modal footer -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-success" onclick="js:SetClock()">Save</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="KeyModal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<!-- Modal Header -->
+			<div class="modal-header">
+				<h4 class="modal-title">Keyboard Shortcut Settings</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<!-- Modal body -->
+			<div class="modal-body">
+				<div class="input-group mb-3 input-group-sm">
+					<div class="input-group-prepend">
+						<span class="input-group-text">Keyboad Shortcuts &nbsp;<i class="fas fa-clock"></i></span>
+					</div>
+					<select class="form-control" id="key">
+						<option value="on" selected>On</option>
+						<option value="off">Off </option>
+					</select>
+				</div>
+				<h3>Keyboard Shortcuts</h3>
+				<p><i>To run keyboard shortcuts press ctrl, release it then press the key you desire</i></p>
+				<ul></ul>
+			</div>
+			<!-- Modal footer -->
+			<div class="modal-footer">
+				<button type="button" class="btn btn-success" onclick="js:SetKey()">Save</button>
+				<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
 </div>
 
-		</div>
-
-		<script src="js/script.js"></script>
-		<!--script src="js/cacheApp/main.js"></script-->
-	</body>
-	<div class="modal" id="mainSettings">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<!-- Modal Header -->
-				<div class="modal-header">
-					<h4 class="modal-title"><i class="fas fa-cog"></i>&nbsp;Settings</h4>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<!-- Modal body -->
-				<div class="modal-body">
-					<div class="btn-group-vertical w-100">
-						<button type="button" class="btn btn-outline-danger btn-block w-100" data-toggle="modal" data-target="#ThemeModal" data-dismiss="modal">Theme</button>
-						<button type="button" class="btn btn-outline-warning btn-block w-100" data-toggle="modal" data-target="#ClockModal" data-dismiss="modal">Clock</button>
-						<button type="button" class="btn btn-outline-success btn-block w-100" data-toggle="modal" data-target="#KeyModal" data-dismiss="modal">Keyboard Shortcuts</button>
-					</div>
-				</div>
-				<!-- Modal footer -->
-				<div class="modal-footer">
-					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal" id="ThemeModal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<!-- Modal Header -->
-				<div class="modal-header">
-					<h4 class="modal-title">Theme Settings</h4>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<!-- Modal body -->
-				<div class="modal-body">
-					<div class="input-group mb-3 input-group-sm">
-						<div class="input-group-prepend">
-							<span class="input-group-text">Theme Color &nbsp;<i class="fas fa-palette"></i></span>
-						</div>
-						<select class="form-control" id="theme">
-							<option value="dark">Dark</option>
-							<option value="light" selected>Light </option>
-							<option value="blue">Blue</option>
-						</select>
-					</div>
-					<div class="input-group mb-3 input-group-sm">
-						<div class="input-group-prepend">
-							<span class="input-group-text">Nav Text Color &nbsp;<i class="fas fa-palette"></i></span>
-						</div>
-						<select class="form-control" id="textnav">
-							<option value="default" selected>Default </option>
-						</select>
-					</div>
-				</div>
-				<!-- Modal footer -->
-				<div class="modal-footer">
-					<button type="button" class="btn btn-success" id="liveToastBtn" onclick="js:SetTheme()">Save</button>
-					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal" id="ClockModal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<!-- Modal Header -->
-				<div class="modal-header">
-					<h4 class="modal-title">Clock Settings</h4>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<!-- Modal body -->
-				<div class="modal-body">
-					<div class="input-group mb-3 input-group-sm">
-						<div class="input-group-prepend">
-							<span class="input-group-text">Show Clock In Nav &nbsp;<i class="fas fa-clock"></i></span>
-						</div>
-						<select class="form-control" id="clockNav">
-							<option value="on" selected>On</option>
-							<option value="off">Off </option>
-						</select>
-					</div>
-				</div>
-				<!-- Modal footer -->
-				<div class="modal-footer">
-					<button type="button" class="btn btn-success" onclick="js:SetClock()">Save</button>
-					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="modal" id="KeyModal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<!-- Modal Header -->
-				<div class="modal-header">
-					<h4 class="modal-title">Keyboard Shortcut Settings</h4>
-					<button type="button" class="close" data-dismiss="modal">&times;</button>
-				</div>
-				<!-- Modal body -->
-				<div class="modal-body">
-					<div class="input-group mb-3 input-group-sm">
-						<div class="input-group-prepend">
-							<span class="input-group-text">Keyboad Shortcuts &nbsp;<i class="fas fa-clock"></i></span>
-						</div>
-						<select class="form-control" id="key">
-							<option value="on" selected>On</option>
-							<option value="off">Off </option>
-						</select>
-					</div>
-					<h3>Keyboard Shortcuts</h3>
-					<p><i>To run keyboard shortcuts press ctrl, release it then press the key you desire</i></p>
-					<ul></ul>
-				</div>
-				<!-- Modal footer -->
-				<div class="modal-footer">
-					<button type="button" class="btn btn-success" onclick="js:SetKey()">Save</button>
-					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-				</div>
-			</div>
-		</div>
-	</div>
 </html>

@@ -1,4 +1,5 @@
 var keyOn = true
+var ctlPressed = false
 var colors = [
 	"AliceBlue",
 	"AntiqueWhite ",
@@ -257,9 +258,6 @@ function LoadCode() {
 
 
 
-var ctlPressed = false
-
-
 document.onkeyup = function(event) {
 	if (keyOn === true) {
 
@@ -277,7 +275,7 @@ document.onkeyup = function(event) {
 	}
 
 	else {
-		console.log( document.getElementById("tempF").innerHTML)
+		console.log(document.getElementById("tempF").value)
 	}
 }
 
