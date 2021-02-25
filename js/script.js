@@ -260,7 +260,6 @@ function LoadCode() {
 var ctlPressed = false
 
 
-
 document.onkeyup = function(event) {
 	if (keyOn === true) {
 
@@ -276,4 +275,9 @@ document.onkeyup = function(event) {
 			}
 		}
 	}
+
+	else {
+		console.log( document.getElementById("tempF").innerHTML)
+	}
 }
+
