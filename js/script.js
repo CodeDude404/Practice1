@@ -202,7 +202,24 @@ function SetTheme() {
 		var i;
 		for (i = 0; i < colors.length; i++) {
 			if (value === colors[i]) {
-				clockNav.className = "navbar-default " + colors[i]
+				clockNav.className = "navbar-default " + colors[i] + "-navbar"
+			}
+		}
+	}
+
+
+	var e = document.getElementById("bkg");
+	var value = e.options[e.selectedIndex].value;
+	var clockNav = document.getElementById("main");
+
+	console.log(e)
+	if (value === "default") {
+		clockNav.className = "container mt-3"
+	} else {
+		var i;
+		for (i = 0; i < colors.length; i++) {
+			if (value === colors[i]) {
+				clockNav.className = "container mt-3 " + colors[i] + "-background"
 			}
 		}
 	}
@@ -250,6 +267,13 @@ function LoadCode() {
 	var i;
 	for (i = 0; i < colors.length; i++) {
 		var txt = document.getElementById("textnav");
+
+		txt.innerHTML = txt.innerHTML + "<option value=\"" + colors[i] + "-navbar\">" + colors[i] + "</option"
+	}
+
+	var i;
+	for (i = 0; i < colors.length; i++) {
+		var txt = document.getElementById("bkg");
 
 		txt.innerHTML = txt.innerHTML + "<option value=\"" + colors[i] + "-navbar\">" + colors[i] + "</option"
 	}

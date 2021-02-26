@@ -1,6 +1,4 @@
-
-
-
+/* Navbar */
 .AliceBlue-navbar {
     color: AliceBlue !important;
     display: inline-block;
@@ -1390,4 +1388,570 @@
     font-size: 1.25rem;
     line-height: inherit;
     white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+/* bkg */
+.AliceBlue-background {
+    background-color: AliceBlue !important;
+
+}
+.AntiqueWhite-background {
+    background-color: AntiqueWhite !important;
+
+}
+.Aqua-background {
+    background-color: Aqua !important;
+
+}
+.Aquamarine-background {
+    background-color: Aquamarine !important;
+
+}
+.Beige-background {
+    background-color: beige !important;
+
+}
+.Bisque-background {
+    background-color: beige !important;
+
+}
+.Black-background {
+    background-color: black !important;
+
+}
+.BlanchedAlmond-background {
+    background-color: blanchedalmond !important;
+
+}
+.Blue-background {
+    background-color: blue !important;
+
+}
+.BlueViolet-background {
+    background-color: blueviolet !important;
+
+}
+.Brown-background {
+    background-color: brown !important;
+
+}
+.BurlyWood-background {
+    background-color: burlywood !important;
+
+}
+.CadetBlue-background {
+    background-color: cadetblue !important;
+
+}
+.Chartreuse-background {
+    background-color: chartreuse !important;
+
+}
+.Chocolate-background {
+    background-color: chocolate !important;
+
+}
+.Coral-background {
+    background-color: coral !important;
+
+}
+.CornflowerBlue-background {
+    background-color: cornflowerblue !important;
+
+}
+.Cornsilk-background {
+    background-color: cornsilk !important;
+
+}
+.Crimson-background {
+    background-color: crimson !important;
+
+}
+.Cyan-background {
+    background-color: cyan !important;
+
+}
+.DarkBlue-background {
+    background-color: darkblue !important;
+
+}
+.DarkCyan-background {
+    background-color: darkcyan !important;
+
+}
+.DarkGoldenRod-background {
+    background-color: darkgoldenrod !important;
+
+}
+.DarkGray-background {
+    background-color: darkgray !important;
+
+}
+.DarkGreen-background {
+    background-color: darkgreen !important;
+
+}
+.DarkKhaki-background {
+    background-color: darkkhaki !important;
+
+}
+.DarkMagenta-background {
+    background-color: darkmagenta !important;
+
+}
+.DarkOliveGreen-background {
+    background-color: darkolivegreen !important;
+
+}
+.Darkorange-background {
+    background-color: darkorange !important;
+
+}
+.DarkOrchid-background {
+    background-color: darkorchid !important;
+
+}
+.DarkRed-background {
+    background-color: darkred !important;
+
+}
+.DarkSalmon-background {
+    background-color: darksalmon !important;
+
+}
+.DarkSeaGreen-background {
+    background-color: darkseagreen !important;
+
+}
+.DarkSlateBlue-background {
+    background-color: darkslateblue !important;
+
+}
+.DarkSlateGray-background {
+    background-color: darkslategray !important;
+
+}
+.DarkTurquoise-background {
+    background-color: darkturquoise !important;
+
+}
+.DarkViolet-background {
+    background-color: darkviolet !important;
+
+}
+.DeepPink-background {
+    background-color: deeppink !important;
+
+}
+.DeepSkyBlue-background {
+    background-color: deepskyblue !important;
+
+}
+.DimGray-background {
+    background-color: dimgray !important;
+
+}
+.DodgerBlue-background {
+    background-color: dodgerblue !important;
+
+}
+.FireBrick-background {
+    background-color: firebrick !important;
+
+}
+.FloralWhite-background {
+    background-color: floralwhite !important;
+
+}
+.ForestGreen-background {
+    background-color: forestgreen !important;
+
+}
+.Fuchsia-background {
+    background-color: fuchsia !important;
+
+}
+.Gainsboro-background {
+    background-color: gainsboro !important;
+
+}
+.GhostWhite-background {
+    background-color: ghostwhite !important;
+
+}
+.Gold-background {
+    background-color: gold !important;
+
+}
+.GoldenRod-background {
+    background-color: goldenrod !important;
+
+}
+.Grey-background {
+    background-color: grey !important;
+
+}
+.Green-background {
+    background-color: green !important;
+
+}
+.GreenYellow-background {
+    background-color: greenyellow !important;
+
+}
+.HoneyDew-background {
+    background-color: honeydew !important;
+
+}
+.HotPink-background {
+    background-color: hotpink !important;
+
+}
+.IndianRed-background {
+    background-color: indianred !important;
+
+}
+.Indigo-background {
+    background-color: indigo !important;
+
+}
+.Ivory-background {
+    background-color: ivory !important;
+
+}
+.Khaki-background {
+    background-color: khaki !important;
+
+}
+.Lavender-background {
+    background-color: lavender !important;
+
+}
+.LavenderBlush-background {
+    background-color: lavenderblush !important;
+
+}
+.LawnGreen-background {
+    background-color: lawngreen !important;
+
+}
+.LemonChiffon-background {
+    background-color: lemonchiffon !important;
+
+}
+.LightBlue-background {
+    background-color: lightblue !important;
+
+}
+.LightCoral-background {
+    background-color: lightcoral !important;
+
+}
+.LightCyan-background {
+    background-color: lightcyan !important;
+
+}
+.LightGoldenRodYellow-background {
+    background-color: lightgoldenrodyellow !important;
+
+}
+.LightGray-background {
+    background-color: lightgray !important;
+
+}
+.LightGreen-background {
+    background-color: lightgreen !important;
+
+}
+.LightPink-background {
+    background-color: lightpink !important;
+
+}
+.LightSalmon-background {
+    background-color: lightsalmon !important;
+
+}
+.LightSeaGreen-background {
+    background-color: lightseagreen !important;
+
+}
+.LightSkyBlue-background {
+    background-color: lightskyblue !important;
+
+}
+.LightSlateGray-background {
+    background-color: lightslategray !important;
+
+}
+.LightSteelBlue-background {
+    background-color: lightsteelblue !important;
+
+}
+.LightYellow-background {
+    background-color: lightyellow !important;
+
+}
+.Lime-background {
+    background-color: lime !important;
+
+}
+.LimeGreen-background {
+    background-color: limegreen !important;
+
+}
+.Linen-background {
+    background-color: linen !important;
+
+}
+.Magenta-background {
+    background-color: magenta !important;
+
+}
+.Maroon-background {
+    background-color: maroon !important;
+
+}
+.MediumAquaMarine-background {
+    background-color: mediumaquamarine !important;
+
+}
+.MediumBlue-background {
+    background-color: mediumblue !important;
+
+}
+.MediumOrchid-background {
+    background-color: mediumorchid !important;
+
+}
+.MediumPurple-background {
+    background-color: mediumpurple !important;
+
+}
+.MediumSeaGreen-background {
+    background-color: mediumseagreen !important;
+
+}
+.MediumSlateBlue-background {
+    background-color: mediumslateblue !important;
+
+}
+.MediumSpringGreen-background {
+    background-color: mediumspringgreen !important;
+
+}
+.MediumTurquoise-background {
+    background-color: mediumturquoise !important;
+
+}
+.MediumVioletRed-background {
+    background-color: mediumvioletred !important;
+
+}
+.MidnightBlue-background {
+    background-color: midnightblue !important;
+
+}
+.MintCream-background {
+    background-color: mintcream !important;
+
+}
+.MistyRose-background {
+    background-color: mistyrose !important;
+
+}
+.Moccasin-background {
+    background-color: moccasin !important;
+
+}
+.NavajoWhite-background {
+    background-color: navajowhite !important;
+
+}
+.Navy-background {
+    background-color: navy !important;
+
+}
+.OldLace-background {
+    background-color: oldlace !important;
+
+}
+.Olive-background {
+    background-color: olive !important;
+
+}
+.OliveDrab-background {
+    background-color: olivedrab !important;
+
+}
+.Orange-background {
+    background-color: orange !important;
+
+}
+.OrangeRed-background {
+    background-color: orangered !important;
+
+}
+.Orchid-background {
+    background-color: orchid !important;
+
+}
+.PaleGoldenRod-background {
+    background-color: palegoldenrod !important;
+
+}
+.PaleGreen-background {
+    background-color: palegreen !important;
+
+}
+.PaleTurquoise-background {
+    background-color: paleturquoise !important;
+
+}
+.PaleVioletRed-background {
+    background-color: palevioletred !important;
+
+}
+.PapayaWhip-background {
+    background-color: papayawhip !important;
+
+}
+.PeachPuff-background {
+    background-color: peachpuff !important;
+
+}
+.Peru-background {
+    background-color: peru !important;
+
+}
+.Pink-background {
+    background-color: pink !important;
+
+}
+.Plum-background {
+    background-color: plum !important;
+
+}
+.PowderBlue-background {
+    background-color: powderblue !important;
+
+}
+.Purple-background {
+    background-color: purple !important;
+
+}
+.Red-background {
+    background-color: red !important;
+
+}
+.RosyBrown-background {
+    background-color: rosybrown !important;
+
+}
+.RoyalBlue-background {
+    background-color: royalblue !important;
+
+}
+.SaddleBrown-background {
+    background-color: saddlebrown !important;
+
+}
+.Salmon-background {
+    background-color: salmon !important;
+
+}
+.SandyBrown-background {
+    background-color: sandybrown !important;
+
+}
+.SeaGreen-background {
+    background-color: seagreen !important;
+
+}
+.SeaShell-background {
+    background-color: seashell !important;
+
+}
+.Sienna-background {
+    background-color: sienna !important;
+
+}
+.Silver-background {
+    background-color: silver !important;
+
+}
+.SkyBlue-background {
+    background-color: skyblue !important;
+
+}
+.SlateBlue-background {
+    background-color: slateblue !important;
+
+}
+.SlateGrey-background {
+    background-color: slategray !important;
+
+}
+.Snow-background {
+    background-color: snow !important;
+
+}
+.SpringGreen-background {
+    background-color: springgreen !important;
+
+}
+.SteelBlue-background {
+    background-color: steelblue !important;
+
+}
+.Tan-background {
+    background-color: tan !important;
+
+}
+.Teal-background {
+    background-color: teal !important;
+
+}
+.Thistle-background {
+    background-color: thistle !important;
+
+}
+.Tomato-background {
+    background-color: tomato !important;
+
+}
+.Turquoise-background {
+    background-color: turquoise !important;
+
+}
+.Violet-background {
+    background-color: violet !important;
+
+}
+.Wheat-background {
+    background-color: wheat !important;
+
+}
+.White-background {
+    background-color: white !important;
+
+}
+.WhiteSmoke-background {
+    background-color: whitesmoke !important;
+
+}
+.Yellow-background {
+    background-color: yellow !important;
+
+}
+.YellowGreen-background {
+    background-color: yellowgreen !important;
+
 }
