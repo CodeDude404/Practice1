@@ -256,8 +256,9 @@ function LoadCode() {
 }
 
 
-function ConvertF() {
-	console.log(document.getElementById("tempF").value)
+function ConvertF(input) {
+	console.log(input)
+	document.getElementById("myTextarea").value = "Fifth Avenue, New York City";
 }
 
 document.onkeyup = function(event) {

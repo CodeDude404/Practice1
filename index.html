@@ -63,8 +63,15 @@
 		<p>Convert temperatures to or from Celsius, Kelvin, and Fahrenheit. Just type the numbers and go!</p>
 
 		<div class="input-group mb-3">
-			<input type="number" class="form-control" placeholder="Fahrenheit" aria-label="Fahrenheit" onchange="ConvertF"
+			<input type="number" class="form-control" placeholder="Fahrenheit" aria-label="Fahrenheit" onchange="js:ConvertF(this.value)"
 				aria-describedby="basic-addon2" id="tempF">
+			<div class="input-group-append">
+				<span class="input-group-text" id="basic-addon2">&#176;C</span>
+			</div>
+		</div>
+		<div class="input-group mb-3">
+						<input type="number" class="form-control" placeholder="Celsius" aria-label="Celsius" onchange="js:ConvertC(this.value)"
+				aria-describedby="basic-addon2" id="tempC">
 			<div class="input-group-append">
 				<span class="input-group-text" id="basic-addon2">&#176;F</span>
 			</div>
