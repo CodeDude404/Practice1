@@ -200,7 +200,7 @@ function SetTheme() {
 		console.log("navtext = default")
 	} else {
 		var i;
-		for (i = 1; i < colors.length; i++) {
+		for (i = 0; i < colors.length; i++) {
 			if (value === colors[i]) {
 				clockNav.className = "navbar-default " + colors[i]
 			}
@@ -248,10 +248,10 @@ function LoadCode() {
 	$('.toast').toast('show');
 	
 	var i;
-	for (i = 1; i < colors.length; i++) {
+	for (i = 0; i < colors.length; i++) {
 		var txt = document.getElementById("textnav");
 
-		txt.innerHTML = txt.innerHTML + "<option value=\"" + colors[i] + "\">" + colors[i] + "</option"
+		txt.innerHTML = txt.innerHTML + "<option value=\"" + colors[i] + "-navbar\">" + colors[i] + "</option"
 	}
 }
 

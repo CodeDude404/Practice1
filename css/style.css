@@ -1,7 +1,7 @@
 
 
 
-.AliceBlue {
+.AliceBlue-navbar {
     color: AliceBlue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -11,7 +11,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.AntiqueWhite {
+.AntiqueWhite-navbar {
     color: AntiqueWhite !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -21,7 +21,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Aqua {
+.Aqua-navbar {
     color: Aqua !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -31,7 +31,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Aquamarine {
+.Aquamarine-navbar {
     color: Aquamarine !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -41,7 +41,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Beige {
+.Beige-navbar {
     color: beige !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -51,7 +51,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Bisque {
+.Bisque-navbar {
     color: beige !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -61,7 +61,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Black {
+.Black-navbar {
     color: black !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -71,7 +71,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.BlanchedAlmond {
+.BlanchedAlmond-navbar {
     color: blanchedalmond !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -81,7 +81,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Blue {
+.Blue-navbar {
     color: blue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -91,7 +91,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.BlueViolet {
+.BlueViolet-navbar {
     color: blueviolet !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -101,7 +101,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Brown {
+.Brown-navbar {
     color: brown !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -111,7 +111,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.BurlyWood {
+.BurlyWood-navbar {
     color: burlywood !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -121,7 +121,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.CadetBlue {
+.CadetBlue-navbar {
     color: cadetblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -131,7 +131,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Chartreuse {
+.Chartreuse-navbar {
     color: chartreuse !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -141,7 +141,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Chocolate {
+.Chocolate-navbar {
     color: chocolate !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -151,7 +151,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Coral {
+.Coral-navbar {
     color: coral !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -161,7 +161,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.CornflowerBlue {
+.CornflowerBlue-navbar {
     color: cornflowerblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -171,7 +171,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Cornsilk {
+.Cornsilk-navbar {
     color: cornsilk !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -181,7 +181,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Crimson {
+.Crimson-navbar {
     color: crimson !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -191,7 +191,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Cyan {
+.Cyan-navbar {
     color: cyan !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -201,7 +201,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkBlue {
+.DarkBlue-navbar {
     color: darkblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -211,7 +211,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkCyan {
+.DarkCyan-navbar {
     color: darkcyan !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -221,7 +221,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkGoldenRod {
+.DarkGoldenRod-navbar {
     color: darkgoldenrod !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -231,7 +231,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkGray {
+.DarkGray-navbar {
     color: darkgray !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -241,7 +241,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkGreen {
+.DarkGreen-navbar {
     color: darkgreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -251,7 +251,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkKhaki {
+.DarkKhaki-navbar {
     color: darkkhaki !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -261,7 +261,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkMagenta {
+.DarkMagenta-navbar {
     color: darkmagenta !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -271,7 +271,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkOliveGreen {
+.DarkOliveGreen-navbar {
     color: darkolivegreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -281,7 +281,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Darkorange {
+.Darkorange-navbar {
     color: darkorange !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -291,7 +291,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkOrchid {
+.DarkOrchid-navbar {
     color: darkorchid !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -301,7 +301,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkRed {
+.DarkRed-navbar {
     color: darkred !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -311,7 +311,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkSalmon {
+.DarkSalmon-navbar {
     color: darksalmon !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -321,7 +321,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkSeaGreen {
+.DarkSeaGreen-navbar {
     color: darkseagreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -331,7 +331,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkSlateBlue {
+.DarkSlateBlue-navbar {
     color: darkslateblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -341,7 +341,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkSlateGray {
+.DarkSlateGray-navbar {
     color: darkslategray !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -351,7 +351,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkTurquoise {
+.DarkTurquoise-navbar {
     color: darkturquoise !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -361,7 +361,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DarkViolet {
+.DarkViolet-navbar {
     color: darkviolet !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -371,7 +371,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DeepPink {
+.DeepPink-navbar {
     color: deeppink !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -381,7 +381,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DeepSkyBlue {
+.DeepSkyBlue-navbar {
     color: deepskyblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -391,7 +391,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DimGray {
+.DimGray-navbar {
     color: dimgray !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -401,7 +401,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.DodgerBlue {
+.DodgerBlue-navbar {
     color: dodgerblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -411,7 +411,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.FireBrick {
+.FireBrick-navbar {
     color: firebrick !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -421,7 +421,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.FloralWhite {
+.FloralWhite-navbar {
     color: floralwhite !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -431,7 +431,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.ForestGreen {
+.ForestGreen-navbar {
     color: forestgreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -441,7 +441,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Fuchsia {
+.Fuchsia-navbar {
     color: fuchsia !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -451,7 +451,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Gainsboro {
+.Gainsboro-navbar {
     color: gainsboro !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -461,7 +461,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.GhostWhite {
+.GhostWhite-navbar {
     color: ghostwhite !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -471,7 +471,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Gold {
+.Gold-navbar {
     color: gold !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -481,7 +481,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.GoldenRod {
+.GoldenRod-navbar {
     color: goldenrod !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -491,7 +491,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Grey {
+.Grey-navbar {
     color: grey !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -501,7 +501,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Green {
+.Green-navbar {
     color: green !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -511,7 +511,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.GreenYellow {
+.GreenYellow-navbar {
     color: greenyellow !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -521,7 +521,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.HoneyDew {
+.HoneyDew-navbar {
     color: honeydew !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -531,7 +531,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.HotPink {
+.HotPink-navbar {
     color: hotpink !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -541,7 +541,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.IndianRed {
+.IndianRed-navbar {
     color: indianred !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -551,7 +551,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Indigo {
+.Indigo-navbar {
     color: indigo !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -561,7 +561,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Ivory {
+.Ivory-navbar {
     color: ivory !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -571,7 +571,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Khaki {
+.Khaki-navbar {
     color: khaki !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -581,7 +581,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Lavender {
+.Lavender-navbar {
     color: lavender !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -591,7 +591,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LavenderBlush {
+.LavenderBlush-navbar {
     color: lavenderblush !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -601,7 +601,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LawnGreen {
+.LawnGreen-navbar {
     color: lawngreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -611,7 +611,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LemonChiffon {
+.LemonChiffon-navbar {
     color: lemonchiffon !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -621,7 +621,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightBlue {
+.LightBlue-navbar {
     color: lightblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -631,7 +631,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightCoral {
+.LightCoral-navbar {
     color: lightcoral !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -641,7 +641,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightCyan {
+.LightCyan-navbar {
     color: lightcyan !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -651,7 +651,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightGoldenRodYellow {
+.LightGoldenRodYellow-navbar {
     color: lightgoldenrodyellow !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -661,7 +661,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightGray {
+.LightGray-navbar {
     color: lightgray !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -671,7 +671,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightGreen {
+.LightGreen-navbar {
     color: lightgreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -681,7 +681,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightPink {
+.LightPink-navbar {
     color: lightpink !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -691,7 +691,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightSalmon {
+.LightSalmon-navbar {
     color: lightsalmon !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -701,7 +701,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightSeaGreen {
+.LightSeaGreen-navbar {
     color: lightseagreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -711,7 +711,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightSkyBlue {
+.LightSkyBlue-navbar {
     color: lightskyblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -721,7 +721,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightSlateGray {
+.LightSlateGray-navbar {
     color: lightslategray !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -731,7 +731,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightSteelBlue {
+.LightSteelBlue-navbar {
     color: lightsteelblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -741,7 +741,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LightYellow {
+.LightYellow-navbar {
     color: lightyellow !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -751,7 +751,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Lime {
+.Lime-navbar {
     color: lime !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -761,7 +761,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.LimeGreen {
+.LimeGreen-navbar {
     color: limegreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -771,7 +771,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Linen {
+.Linen-navbar {
     color: linen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -781,7 +781,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Magenta {
+.Magenta-navbar {
     color: magenta !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -791,7 +791,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Maroon {
+.Maroon-navbar {
     color: maroon !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -801,7 +801,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumAquaMarine {
+.MediumAquaMarine-navbar {
     color: mediumaquamarine !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -811,7 +811,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumBlue {
+.MediumBlue-navbar {
     color: mediumblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -821,7 +821,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumOrchid {
+.MediumOrchid-navbar {
     color: mediumorchid !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -831,7 +831,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumPurple {
+.MediumPurple-navbar {
     color: mediumpurple !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -841,7 +841,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumSeaGreen {
+.MediumSeaGreen-navbar {
     color: mediumseagreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -851,7 +851,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumSlateBlue {
+.MediumSlateBlue-navbar {
     color: mediumslateblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -861,7 +861,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumSpringGreen {
+.MediumSpringGreen-navbar {
     color: mediumspringgreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -871,7 +871,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumTurquoise {
+.MediumTurquoise-navbar {
     color: mediumturquoise !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -881,7 +881,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MediumVioletRed {
+.MediumVioletRed-navbar {
     color: mediumvioletred !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -891,7 +891,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MidnightBlue {
+.MidnightBlue-navbar {
     color: midnightblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -901,7 +901,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MintCream {
+.MintCream-navbar {
     color: mintcream !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -911,7 +911,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.MistyRose {
+.MistyRose-navbar {
     color: mistyrose !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -921,7 +921,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Moccasin {
+.Moccasin-navbar {
     color: moccasin !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -931,7 +931,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.NavajoWhite {
+.NavajoWhite-navbar {
     color: navajowhite !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -941,7 +941,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Navy {
+.Navy-navbar {
     color: navy !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -951,7 +951,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.OldLace {
+.OldLace-navbar {
     color: oldlace !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -961,7 +961,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Olive {
+.Olive-navbar {
     color: olive !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -971,7 +971,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.OliveDrab {
+.OliveDrab-navbar {
     color: olivedrab !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -981,7 +981,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Orange {
+.Orange-navbar {
     color: orange !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -991,7 +991,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.OrangeRed {
+.OrangeRed-navbar {
     color: orangered !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1001,7 +1001,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Orchid {
+.Orchid-navbar {
     color: orchid !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1011,7 +1011,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.PaleGoldenRod {
+.PaleGoldenRod-navbar {
     color: palegoldenrod !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1021,7 +1021,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.PaleGreen {
+.PaleGreen-navbar {
     color: palegreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1031,7 +1031,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.PaleTurquoise {
+.PaleTurquoise-navbar {
     color: paleturquoise !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1041,7 +1041,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.PaleVioletRed {
+.PaleVioletRed-navbar {
     color: palevioletred !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1051,7 +1051,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.PapayaWhip {
+.PapayaWhip-navbar {
     color: papayawhip !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1061,7 +1061,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.PeachPuff {
+.PeachPuff-navbar {
     color: peachpuff !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1071,7 +1071,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Peru {
+.Peru-navbar {
     color: peru !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1081,7 +1081,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Pink {
+.Pink-navbar {
     color: pink !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1091,7 +1091,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Plum {
+.Plum-navbar {
     color: plum !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1101,7 +1101,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.PowderBlue {
+.PowderBlue-navbar {
     color: powderblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1111,7 +1111,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Purple {
+.Purple-navbar {
     color: purple !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1121,7 +1121,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Red {
+.Red-navbar {
     color: red !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1131,7 +1131,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.RosyBrown {
+.RosyBrown-navbar {
     color: rosybrown !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1141,7 +1141,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.RoyalBlue {
+.RoyalBlue-navbar {
     color: royalblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1151,7 +1151,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SaddleBrown {
+.SaddleBrown-navbar {
     color: saddlebrown !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1161,7 +1161,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Salmon {
+.Salmon-navbar {
     color: salmon !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1171,7 +1171,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SandyBrown {
+.SandyBrown-navbar {
     color: sandybrown !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1181,7 +1181,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SeaGreen {
+.SeaGreen-navbar {
     color: seagreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1191,7 +1191,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SeaShell {
+.SeaShell-navbar {
     color: seashell !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1201,7 +1201,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Sienna {
+.Sienna-navbar {
     color: sienna !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1211,7 +1211,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Silver {
+.Silver-navbar {
     color: silver !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1221,7 +1221,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SkyBlue {
+.SkyBlue-navbar {
     color: skyblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1231,7 +1231,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SlateBlue {
+.SlateBlue-navbar {
     color: slateblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1241,7 +1241,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SlateGrey {
+.SlateGrey-navbar {
     color: slategray !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1251,7 +1251,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Snow {
+.Snow-navbar {
     color: snow !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1261,7 +1261,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SpringGreen {
+.SpringGreen-navbar {
     color: springgreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1271,7 +1271,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.SteelBlue {
+.SteelBlue-navbar {
     color: steelblue !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1281,7 +1281,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Tan {
+.Tan-navbar {
     color: tan !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1291,7 +1291,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Teal {
+.Teal-navbar {
     color: teal !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1301,7 +1301,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Thistle {
+.Thistle-navbar {
     color: thistle !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1311,7 +1311,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Tomato {
+.Tomato-navbar {
     color: tomato !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1321,7 +1321,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Turquoise {
+.Turquoise-navbar {
     color: turquoise !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1331,7 +1331,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Violet {
+.Violet-navbar {
     color: violet !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1341,7 +1341,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Wheat {
+.Wheat-navbar {
     color: wheat !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1351,7 +1351,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.White {
+.White-navbar {
     color: white !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1361,7 +1361,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.WhiteSmoke {
+.WhiteSmoke-navbar {
     color: whitesmoke !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1371,7 +1371,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.Yellow {
+.Yellow-navbar {
     color: yellow !important;
     display: inline-block;
     padding-top: 0.3125rem;
@@ -1381,7 +1381,7 @@
     line-height: inherit;
     white-space: nowrap;
 }
-.YellowGreen {
+.YellowGreen-navbar {
     color: yellowgreen !important;
     display: inline-block;
     padding-top: 0.3125rem;
