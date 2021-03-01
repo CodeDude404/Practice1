@@ -280,17 +280,6 @@ function LoadCode() {
 }
 
 
-function ConvertF(input) {
-	console.log(input)
-	document.getElementById("tempC").value = ((input - 32) * 5) / 9;
-}
-
-
-function ConvertC(input) {
-	console.log(input)
-	document.getElementById("tempF").value = ((input / 5) * 9) + 32;
-}
-
 document.onkeyup = function(event) {
 	if (keyOn === true) {
 

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>WebTools | Tool | Temperature Converter</title>
+	<title>WebTools | Tool | Weight Converter</title>
 	<meta charset="utf-8" />
 	<link rel="apple-touch-icon" sizes="180x180" href="../fav/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="../fav/favicon-32x32.png">
@@ -49,8 +49,8 @@
 						Tools
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item active" href="../tools/temp.html">Temperature Converter</a>
-						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="../tools/temp.html">Temperature Converter</a>
+						<a class="dropdown-item active" href="../tools/weight.html">Weight Converter</a>
 						<div class="dropdown-divider"></div>
 						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
@@ -69,37 +69,55 @@
 
 	<div class="container mt-3" id="main">
 
-		<h2>Temperature Converter</h2>
-		<p>Convert temperatures to or from Celsius, Kelvin, and Fahrenheit. Just type the numbers and go!</p>
+		<h2>Weight Converter</h2>
+		<p>Convert temperatures to or from Pounds, Kilograms, Ounces, Grams, and Stones. Just type the numbers and go!
+		</p>
 
 		<div class="input-group mb-3">
-			<input type="number" class="form-control" placeholder="Celsius" aria-label="Celsius"
-				onchange="js:ConvertC(this.value)" aria-describedby="basic-addon2" id="inputCelsius">
+			<input type="number" class="form-control" placeholder="Pounds" aria-label="Pounds"
+				onchange="js:ConvertP(this.value)" aria-describedby="basic-addon2" id="inputPounds">
 			<div class="input-group-append">
-				<span class="input-group-text" id="basic-addon2">C</span>
+				<span class="input-group-text" id="basic-addon2">lbs</span>
 			</div>
 		</div>
 		<div class="input-group mb-3">
-			<input type="number" class="form-control" placeholder="Fahrenheit" aria-label="Fahrenheit"
-				onchange="js:ConvertF(this.value)" aria-describedby="basic-addon2" id="inputFahrenheit">
+			<input type="number" class="form-control" placeholder="Kilograms" aria-label="Kilograms"
+				onchange="js:ConvertK(this.value)" aria-describedby="basic-addon2" id="inputKilograms">
 			<div class="input-group-append">
-				<span class="input-group-text" id="basic-addon2">F</span>
+				<span class="input-group-text" id="basic-addon2">Kg</span>
 			</div>
 		</div>
 
 
 		<div class="input-group mb-3">
-			<input type="number" class="form-control" placeholder="Kelvin" aria-label="Kelvin"
-				onchange="js:ConvertK(this.value)" aria-describedby="basic-addon2" id="inputKelvin">
+			<input type="number" class="form-control" placeholder="Ounces" aria-label="Ounces"
+				onchange="js:ConvertO(this.value)" aria-describedby="basic-addon2" id="inputOunces">
 			<div class="input-group-append">
-				<span class="input-group-text" id="basic-addon2">K</span>
+				<span class="input-group-text" id="basic-addon2">Oz</span>
+			</div>
+		</div>
+
+		<div class="input-group mb-3">
+			<input type="number" class="form-control" placeholder="Grams" aria-label="Grams"
+				onchange="js:ConvertG(this.value)" aria-describedby="basic-addon2" id="inputGrams">
+			<div class="input-group-append">
+				<span class="input-group-text" id="basic-addon2">G</span>
+			</div>
+		</div>
+
+
+		<div class="input-group mb-3">
+			<input type="number" class="form-control" placeholder="Stones" aria-label="Stones"
+				onchange="js:ConvertS(this.value)" aria-describedby="basic-addon2" id="inputStones">
+			<div class="input-group-append">
+				<span class="input-group-text" id="basic-addon2">St</span>
 			</div>
 		</div>
 
 	</div>
 
 	<script src="../customLib/js/script.js"></script>
-	<script src="../customLib/js/temp.js"></script>
+	<script src="../customLib/js/weight.js"></script>
 	<!--script src="js/cacheApp/main.js"></script-->
 </body>
 <div class="modal" id="mainSettings">
