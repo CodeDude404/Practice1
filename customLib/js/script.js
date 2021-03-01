@@ -148,7 +148,7 @@ var colors = [
 function startClock() {
 	if (typeof(Worker) !== "undefined") {
 		if (typeof(w) == "undefined") {
-			w = new Worker("js/date.js");
+			w = new Worker("customLib/js/date.js");
 		}
 		w.onmessage = function(event) {
 			document.getElementById("time").innerHTML = event.data;
