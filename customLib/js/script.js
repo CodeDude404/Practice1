@@ -165,7 +165,7 @@ function endClock() {
 }
 
 function SetTheme() {
-	var e = document.getElementById("theme");
+	var e = document.getElementById("bkg");
 	var value = e.options[e.selectedIndex].value;
 	var content = document.getElementById("main");
 
