@@ -172,19 +172,15 @@ function SetTheme() {
 	console.log(e)
 
 
-
-
-	if (value === "dark") {
-		console.log("user set theme to dark");
-	}
-	content.className = ("container p-3 my-3 bg-dark text-white")
-	if (value === "light") {
-		console.log("theme = light");
-		content.className = ("container mt-3")
-	}
-	if (value === "blue") {
-		console.log("theme = blue");
-		content.className = ("container p-3 my-3 bg-primary text-white")
+	if (value === "default") {
+		content.className = "container mt-3";
+	} else {
+		var i;
+		for (let i = 0; i < colors.length; i++) {
+			if (value === colors[i]) {
+				content.className = "container mt-3 " + colors[i] + "-background"
+			}
+		}
 	}
 
 
