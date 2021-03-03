@@ -169,20 +169,22 @@ function SetTheme() {
 	var value = e.options[e.selectedIndex].value;
 	var content = document.getElementById("main");
 
-	console.log(e)
+	console.log(value)
 
 
 	if (value === "default") {
 		content.className = "container mt-3";
 		console.log("bkg = normal")
 	} else {
-		var i;
-		for (let i = 0; i < colors.length; i++) {
-			if (value === colors[i]) {
-				console.log("bkg = " + colors[i])
-				content.className = "container mt-3 " + colors[i] + "-background"
-			}
-		}
+		//var i;
+		//for (let i = 0; i < colors.length; i++) {
+		//	if (value === colors[i]) {
+		//		console.log("bkg = " + colors[i])
+		//		content.className = "container mt-3 " + colors[i] + "-background"
+		//	}
+
+		content.style.background = value;
+	
 	}
 
 
