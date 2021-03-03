@@ -268,14 +268,14 @@ function LoadCode() {
 	for (i = 0; i < colors.length; i++) {
 		var txt = document.getElementById("textnav");
 
-		txt.innerHTML = txt.innerHTML + "<option value=\"" + colors[i] + "-navbar\">" + colors[i] + "</option"
+		txt.innerHTML = txt.innerHTML + "<option value=\"" + colors[i] + ">" + colors[i] + "</option>"
 	}
 
 	var i;
 	for (i = 0; i < colors.length; i++) {
 		var txt = document.getElementById("bkg");
 
-		txt.innerHTML = txt.innerHTML + "<option value=\"" + colors[i] + "-navbar\">" + colors[i] + "</option"
+		txt.innerHTML = txt.innerHTML + "<option value=\"" + colors[i] + ">" + colors[i] + "</option>"
 	}
 }
 
